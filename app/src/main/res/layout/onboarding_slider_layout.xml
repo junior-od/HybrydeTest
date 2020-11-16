@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivityBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+   <RelativeLayout
+       android:id="@+id/maskIconLayout"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/_180sdp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.0">
+
+       <ImageView
+           android:id="@+id/image"
+           android:layout_marginTop="@dimen/_50sdp"
+           android:layout_width="@dimen/_150sdp"
+           android:layout_height="@dimen/_150sdp"
+           android:layout_centerHorizontal="true"
+           android:scaleType="fitXY"
+           android:src="@drawable/onboarding_icon"
+           android:contentDescription="@string/slider_placeholder"
+           />
+
+       <ImageView
+           android:id="@+id/maskIcon"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:scaleType="fitXY"
+           android:src="@drawable/sparkles_icon"
+           android:contentDescription="@string/sparkles"
+           />
+
+   </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/sliderHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:fontFamily="@font/gotham_bold"
+        android:text="@string/let_s"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maskIconLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/sliderBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center"
+        android:fontFamily="@font/gotham_light"
+        android:text="@string/join_us_now_and_enjoy_n_lorem_lorem_lorem_nlorem_lorem_ispum_yogar"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sliderHeader"
+        app:layout_constraintVertical_bias="0.0"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

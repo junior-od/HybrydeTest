@@ -20,6 +20,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 
 }
 
@@ -31,4 +35,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    //ui responsive dp
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //ui responsive sp
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //country code selector
+    implementation 'com.github.joielechong:countrycodepicker:2.4.1'
+
+    //pin
+    implementation 'com.poovam:pin-edittext-field:1.2.3'
 }
