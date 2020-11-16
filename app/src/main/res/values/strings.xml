@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">HybrydeInterviewTest</string>
+    <string name="slider_placeholder">slider_placeholder</string>
+    <string name="let_s">Let\'s Get Started</string>
+    <string name="sparkles">sparkles</string>
+    <string name="join_us_now_and_enjoy_n_lorem_lorem_lorem_nlorem_lorem_ispum_yogar">Join Us Now And Enjoy\n Lorem Lorem Lorem\nLorem Lorem Ispum Yogar</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="enter_your_mobile_number_to_nreceive_a_verification_code">Enter Your Mobile Number To\nReceive A Verification Code</string>
+    <string name="get_code">Get Code</string>
+    <string name="enter_a_4_digit_number_that_n_was_sent_to">Enter A 4 Digit Number That \n Was Sent To</string>
+    <string name="verification">Verification</string>
+    <string name="verify">Verify</string>
+    <string name="re_send_code_in_0_59">Re-Send Code In 0:59</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="rest_your_finger_at_the_sensor_nto_capture_your_fingerprint_n_optional">Rest Your Finger At The Sensor\nTo Capture Your Fingerprint\n(Optional)</string>
+    <string name="continue_text">Continue</string>
+    <string name="skip_this_step">Skip This Step</string>
+    <string name="welcome">Welcome</string>
+    <string name="well_you_have_thus_come_this_far_nspeak_friend_and_enter_or_some_nlorem_ipsum">Well you have thus come this far! \nSpeak friend and enter or some \nlorem ipsum</string>
+    <string name="hooray">Hooray!</string>
+    <string name="identify">Identify</string>
+    <string name="we_need_to_verify_your_identity_n_required">We Need to verify your identity \n(Required)</string>
+    <string name="_1">1</string>
+    <string name="national">National</string>
+    <string name="id_or_driver_s_license_for_citizens_nof_the_country_mainly">ID Or Driver\'s license For Citizens\nOf The Country Mainly</string>
+    <string name="_2">2</string>
+    <string name="passport">Passport</string>
+    <string name="required_passport_for_non_citizens">Required Passport For \nNon Citizens</string>
+    <string name="recommended">Recommended</string>
 </resources>
